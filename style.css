@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family: "Epilogue", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.dropdown-menu{
+    border: none;
+}
+
+.navbar-toggler:focus{
+    border: none;
+    color:  hsl(0, 0%, 98%);
+}
+
+.login-btn{
+    color: hsl(0, 0%, 41%);
+}
+
+.register-btn{
+    color: hsl(0, 0%, 41%);
+    border-color: hsl(0, 0%, 41%);
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+.register-btn:hover{
+    border-color: black;
+}
+
+.hero-img{
+    height: 100vh;
+    width: auto;
+}
+
+.display-3{
+    font-weight: 700;
+}
+
+.learn-btn{
+    background-color: black;
+    color: hsl(0, 0%, 98%);
+    border-radius: 15px;
+}
+
+.learn-btn:hover{
+    background-color: black;
+    color: white;
+}
